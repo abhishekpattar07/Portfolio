@@ -1,0 +1,33 @@
+/* =========================================================
+   SKILLS SECTION STYLES
+========================================================= */
+
+.skills {
+  background-color: var(--bg-light);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* Green pill/oval shaped skill tags */
+.skill-pill {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: default;
+  transition: all 0.3s ease;
+}
+
+.skill-pill:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  transform: translateY(-4px);
+}
